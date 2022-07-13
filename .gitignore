@@ -1,0 +1,15 @@
+output
+.DS_Store
+.vscode
+.bundle
+
+# build artifacts
+Gemfile.lock
+# *.html
+*.pdf
+*.pdfmarks
+*.epub
+*-kf8.epub
+*.mobi
+contributors.txt
+attributes-*
