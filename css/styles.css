@@ -57,7 +57,7 @@ section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.container {
+.page-header__container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -78,7 +78,7 @@ section {
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
-.main-logo {
+.logo {
     margin-right: 90px;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -90,13 +90,22 @@ section {
     word-spacing: inherit;
     text-decoration: none;
 }
-.logo-accent {
+.logo--accent {
     color: var(--highlight-color);
 }
 .main-nav {
     display: flex;
     align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    word-spacing: inherit;
+    text-decoration: none;
 }
+
+
 .main-nav .item:last-child {
     margin-right: 0;
 }
@@ -108,7 +117,7 @@ section {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.main-nav,
+/* .main-nav, */
 .contact {
     font-weight: 500;
     font-size: 14px;
