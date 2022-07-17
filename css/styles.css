@@ -57,7 +57,7 @@ section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.page-header__container {
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -78,7 +78,7 @@ section {
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
-.logo {
+.main-logo {
     margin-right: 90px;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -90,22 +90,13 @@ section {
     word-spacing: inherit;
     text-decoration: none;
 }
-.logo--accent {
+.logo-accent {
     color: var(--highlight-color);
 }
 .main-nav {
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
-    word-spacing: inherit;
-    text-decoration: none;
 }
-
-
 .main-nav .item:last-child {
     margin-right: 0;
 }
@@ -117,7 +108,7 @@ section {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-/* .main-nav, */
+.main-nav,
 .contact {
     font-weight: 500;
     font-size: 14px;
@@ -370,7 +361,7 @@ section {
 }
 .com-li > .item {
     max-width: 270px;
-    background-color: var(--primery-backgrouncol-port);
+    background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -381,7 +372,7 @@ section {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: #212121;
 }
 .soc {
 	display: flex;
@@ -484,7 +475,7 @@ footer {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--primery-backgrouncol-port);
+    color: #fff;
     word-spacing: inherit;
     text-decoration: none;
     
@@ -502,7 +493,7 @@ footer {
     letter-spacing: 0.03em;
 }
 .foter-adress {
-    color: var(--primery-backgrouncol-port);
+    color: #fff;
 }
 .adress-foot {
     margin-top: 20px;
@@ -678,7 +669,7 @@ footer {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: #000;
     background-color: var(--secondary-beckgrouncol-port);
     border-color: transparent;
     border-radius: 4px;
@@ -689,7 +680,7 @@ footer {
 }
 .main-btn:focus,
 .main-btn:hover {
-    color: var(--primery-backgrouncol-port);
+    color: #fff;
     background-color: var(--highlight-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -764,7 +755,7 @@ footer {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--secondary-text-color);
+    color: #212121;
 }
 
 /* Modal */
@@ -843,7 +834,7 @@ footer {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--secondary-text-color);
+    color: #212121;
     margin-bottom: 12px;
 }
 .form-field label {
@@ -852,7 +843,7 @@ footer {
     line-height: 1.16;
     letter-spacing: 0.01em;
 
-    color: var(--primery-text-color);
+    color: #757575;
     margin-bottom: 4px;
 }
 .form-group {
