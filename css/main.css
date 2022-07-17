@@ -324,13 +324,10 @@ input {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  min-width: 200px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: #2196F3;
   color: #FFFFFF;
@@ -499,8 +496,7 @@ body {
 }
 
 .hero__button {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 32px;
 }
 
 .backdrop {
@@ -1141,6 +1137,7 @@ body {
 }
 
 .button-footer-icon {
+  fill: #FFFFFF;
   margin-left: 10px;
 }
 
