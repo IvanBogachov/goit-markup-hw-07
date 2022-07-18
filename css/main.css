@@ -895,13 +895,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-networks__items:hover .social-networks__link {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
   background-color: #2196F3;
 }
 .social-networks__link:focus {
-  -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
   background-color: #2196F3;
 }
 
@@ -1208,6 +1204,10 @@ body {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.list-works__link:hover .overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 
 .list-works__container {
   padding: 20px 24px;
@@ -1256,10 +1256,6 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(33, 150, 243, 0.9);
-}
-.thumb:hover .overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .overlay__text {
