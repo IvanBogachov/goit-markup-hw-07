@@ -1,18 +1,19 @@
 .overlay {
+    display: flex;
     position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        transform: translateY(100%);
-        transition: transform 250ms $cubic-bezier;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
 
-        .thumb:hover & {
-            transform: translateY(0);
-        }
+    transform: translateY(100%);
+    transition: transform 250ms $cubic-bezier;
+    background-color: rgba(33, 150, 243, 0.9);
+    .thumb:hover & {
+        transform: translateY(0);
+    }
 }
 .overlay__text {
     width: 322px;
