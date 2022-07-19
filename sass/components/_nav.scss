@@ -27,13 +27,13 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
-    transition: color 250ms var(--cubic-bezier);
+    color: $accent-color;
+    transition: color $time-transl $cubic-bezier;
   }
 }
 
 .nav__link--current {
-  color: var(--accent-color);
+  color: $accent-color;
 
   &::after {
     position: absolute;
@@ -44,6 +44,6 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }

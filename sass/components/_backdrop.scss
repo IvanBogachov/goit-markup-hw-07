@@ -4,9 +4,9 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--modal-opacity-bg);
+  background-color: $modal-opacity-bg;
   opacity: 1;
-  transition: opacity 250ms var(--cubic-bezier);
+  transition: opacity $time-transl $cubic-bezier;
 }
 
 .is-hidden {

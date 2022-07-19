@@ -19,27 +19,27 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: background-color 250ms var(--cubic-bezier);
+  transition: background-color $time-transl $cubic-bezier;
 
-  &:hover,
-&:active {
-  background-color: var(--accent-color);
+&:hover,
+&:focus {
+  background-color: $accent-color;
 }
 &:hover .social-net__icon,
-&:active .social-net__icon {
-  fill: var(--primary-color);
+&:focus .social-net__icon {
+  fill: $primary-color;
 }
 }
 
 .social-net__link--footer {
-  background-color: var(--footer-icon-bg);
+  background-color: $footer-icon-bg;
 }
 
 .social-net__icon {
-  fill: var(--social-net-color);
-  transition: fill 250ms var(--cubic-bezier);
+  fill: $social-net-color;
+  transition: fill $time-transl $cubic-bezier;
 }
 
 .social-net__icon--footer {
-  fill: var(--primary-color);
+  fill: $primary-color;
 }

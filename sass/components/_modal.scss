@@ -9,13 +9,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms var(--cubic-bezier);
+  transition: transform $time-transl $cubic-bezier;
 
   width: 528px;
   padding: 40px;
 
   border-radius: 4px;
-  background-color: var(--primary-color);
+  background-color: $primary-color;
 }
 
 .modal__close-btn {
@@ -33,12 +33,13 @@
   height: 30px;
 
   border-radius: 50%;
-  background-color: var(--primary-color);
-  border: 1px solid var(--border-close-btn);
+  background-color: $primary-color;
+  border: 1px solid $border-close-btn;
   cursor: pointer;
 
-  &:hover .modal__close-btn-icon {
-    fill: var(--accent-color);
+  &:hover .modal__close-btn-icon,
+  &:focus .modal__close-btn-icon {
+    fill: $accent-color;
   }
 }
 
@@ -46,7 +47,7 @@
   display: block;
   margin: auto;
   fill: currentColor;
-  transition: fill 250ms var(--cubic-bezier);
+  transition: fill $time-transl $cubic-bezier;
 }
 
 .modal__title {

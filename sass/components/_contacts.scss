@@ -13,12 +13,12 @@
   @extend %vertical-centered;
   @extend %link;
 
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
-    transition: color 250ms var(--cubic-bezier);
+    color: $accent-color;
+    transition: color $time-transl $cubic-bezier;
   }
 }
 
