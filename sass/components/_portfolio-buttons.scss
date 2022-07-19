@@ -21,7 +21,10 @@
   line-height: 1.62;
   cursor: pointer;
 
-  background-color: $accent-bg-color;
+  transition: 
+    background-color $time-transl $cubic-bezier, 
+    color $time-transl $cubic-bezier,
+    box-shadow $time-transl $cubic-bezier;
 
   &:hover,
   &:focus {

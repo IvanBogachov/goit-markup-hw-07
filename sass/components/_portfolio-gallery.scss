@@ -18,7 +18,8 @@
     margin-bottom: 0;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: 
     0px 3px 5px $box-shodow-first, 
     0px 3px 3px $box-shodow-second,
@@ -40,6 +41,7 @@
 .portfolio-gallery__overlay {
   position: relative;
   overflow: hidden;
+
 }
 
 .portfolio-gallery__text {
@@ -52,6 +54,7 @@
 
   position: absolute;
   transform: translateY(100%);
+  transition: transform $time-transl $cubic-bezier;
 
   font-weight: 400;
   font-size: 18px;

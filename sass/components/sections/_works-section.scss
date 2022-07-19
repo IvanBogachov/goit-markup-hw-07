@@ -26,12 +26,6 @@
   margin-bottom: 30px;
   overflow: hidden;
 
-  &:hover {
-    box-shadow: 0px 3px 5px $box-shodow-first, 0px 3px 3px var(--box-shodow-second),
-      0px 4px 3px $box-shodow-third;
-    transition: box-shadow $time-transl $cubic-bezier;
-  }
-
   &:nth-child(3n) {
     margin-right: 0;
   }

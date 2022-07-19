@@ -19,27 +19,34 @@
 }
 
 .modal__close-btn {
+  display: flex;
   position: absolute;
   top: 8px;
   right: 8px;
 
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
   margin: 0;
 
-  width: 30px;
   height: 30px;
+  margin: 0;
+  padding: 0;
+  min-width: 30px;
 
   border-radius: 50%;
-  background-color: $primary-color;
+  background-color: inherit;
   border: 1px solid $border-close-btn;
+
+  transition: border $time-transl $cubic-bezier,
+  color $time-transl $cubic-bezier;
+
   cursor: pointer;
 
-  &:hover .modal__close-btn-icon,
-  &:focus .modal__close-btn-icon {
-    fill: $accent-color;
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    color: $accent-color;
   }
 }
 
@@ -47,7 +54,6 @@
   display: block;
   margin: auto;
   fill: currentColor;
-  transition: fill $time-transl $cubic-bezier;
 }
 
 .modal__title {

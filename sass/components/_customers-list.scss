@@ -21,6 +21,7 @@
   border: 1px solid $social-net-color;
   border-radius: 4px;
 
+  transition: border-color $time-transl $cubic-bezier;
   &:hover,
   &:focus {
     border-color:$accent-color;
@@ -36,4 +37,5 @@
 
 .customers-list__icon {
   fill: $social-net-color;
+  transition: fill $time-transl $cubic-bezier;
 }
