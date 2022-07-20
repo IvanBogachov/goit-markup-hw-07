@@ -27,7 +27,8 @@
     transition: box-shadow $time-transl $cubic-bezier;
   }
 
-  &:hover .portfolio-gallery__text {
+  &:hover .portfolio-gallery__text,
+  &:focus .portfolio-gallery__text {
     transform: translateY(0);
     transition: transform $time-transl $cubic-bezier;
   }
