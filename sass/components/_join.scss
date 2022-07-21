@@ -6,11 +6,11 @@
   @extend %subtitle;
 
   margin-bottom: 20px;
-  color: $primary-color;
+  color: var(--primary-color);
 }
 
 .soc-list-footer .link:hover .footer-icon,
 .soc-list-footer .link:focus .footer-icon {
-  background-color: $accent-color;
-  transition: background-color $time-transl $cubic-bezier;
+  background-color: var(--accent-color);
+  transition: background-color var(--time-transl) var(--cubic-bezier);
 }

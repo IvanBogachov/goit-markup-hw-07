@@ -12,8 +12,8 @@
 .portfolio-buttons__link {
   border-radius: 4px;
   padding: 6px 22px;
-  background-color: $accent-bg-color;
-  color: $primary-text-color;
+  background-color: var(--accent-bg-color);
+  color: var(--primary-text-color);
   border: 1px solid transparent;
 
   font-weight: 500;
@@ -22,22 +22,22 @@
   cursor: pointer;
 
   transition: 
-    background-color $time-transl $cubic-bezier, 
-    color $time-transl $cubic-bezier,
-    box-shadow $time-transl $cubic-bezier;
+    background-color var(--time-transl) var(--cubic-bezier), 
+    color var(--time-transl) var(--cubic-bezier),
+    box-shadow var(--time-transl) var(--cubic-bezier);
 
   &:hover,
   &:focus {
-    background-color: $accent-color;
-    color: $primary-color;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
     box-shadow: 
-    0px 3px 1px $box-shodow-fifth, 
-    0px 1px 2px $box-shodow-fourth,
-    0px 2px 2px $box-shodow-first;
+    0px 3px 1px var(--box-shodow-fifth), 
+    0px 1px 2px var(--box-shodow-fourth),
+    0px 2px 2px var(--box-shodow-first);
     
     transition: 
-    background-color $time-transl $cubic-bezier, 
-    color $time-transl $cubic-bezier,
-    box-shadow $time-transl $cubic-bezier;
+    background-color var(--time-transl) var(--cubic-bezier), 
+    color var(--time-transl) var(--cubic-bezier),
+    box-shadow var(--time-transl) var(--cubic-bezier);
   }
 }

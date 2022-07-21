@@ -46,8 +46,8 @@
   bottom: 0;
   width: 100%;
   height: 70px;
-  color: $primary-color;
-  background-color: $works-descr-bg-color;
+  color: var(--primary-color);
+  background-color: var(--works-descr-bg-color);
 }
 
 .works__thumb {

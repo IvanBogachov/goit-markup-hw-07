@@ -36,7 +36,8 @@
   justify-content: center;
   height: 120px;
   margin-bottom: 30px;
-  background-color: $accent-bg-color;
+  background-color: var(--accent-bg-color);
+  
 }
 
 .features__subtitle {
@@ -45,5 +46,5 @@
 }
 
 .features__text {
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }

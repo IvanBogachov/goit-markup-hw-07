@@ -24,16 +24,18 @@
   padding-bottom: 32px;
 
   line-height: 1.15;
+  
+  transition: color var(--time-transl) var(--cubic-bezier);
 
   &:hover,
   &:focus {
-    color: $accent-color;
-    transition: color $time-transl $cubic-bezier;
+    color: var(--accent-color);
+    transition: color var(--time-transl) var(--cubic-bezier);
   }
 }
 
 .nav__link--current {
-  color: $accent-color;
+  color: var(--accent-color);
 
   &::after {
     position: absolute;
@@ -44,6 +46,6 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }

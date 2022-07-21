@@ -20,10 +20,10 @@
   &:hover,
   &:focus {
     box-shadow: 
-    0px 3px 5px $box-shodow-first, 
-    0px 3px 3px $box-shodow-second,
-    0px 4px 3px $box-shodow-third;
-    transition: box-shadow $time-transl $cubic-bezier;
+    0px 3px 5px var(--box-shodow-first), 
+    0px 3px 3px var(--box-shodow-second),
+    0px 4px 3px var(--box-shodow-third);
+    transition: box-shadow var(--time-transl) var(--cubic-bezier);
   }
 }
 
@@ -32,12 +32,12 @@
   display: block;
   color: inherit;
   text-decoration: none;
-  transition: box-shadow $time-transl $cubic-bezier;
+  transition: box-shadow var(--time-transl) var(--cubic-bezier);
 
   &:hover .portfolio-gallery__overlay,
   &:focus .portfolio-gallery__overlay {
     transform: translateY(0);
-    transition: transform $time-transl $cubic-bezier;
+    transition: transform var(--time-transl) var(--cubic-bezier);
   }
 }
 .portfolio-gallery__thumb {
@@ -53,11 +53,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: $portf-thumb-bg-color;
-  color: $primary-color;
+  background-color: var(--portf-thumb-bg-color);
+  color: var(--primary-color);
 
   transform: translatey(100%);
-  transition: transform $time-transl $cubic-bezier;
+  transition: transform var(--time-transl) var(--cubic-bezier);
 
 }
 
@@ -71,9 +71,9 @@
 
 .portfolio-gallery__descr {
   padding: 20px 24px;
-  border-right: 1px solid $border-color;
-  border-bottom: 1px solid $border-color;
-  border-left: 1px solid $border-color;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
 
 .portfolio-gallery__name {
@@ -84,12 +84,12 @@
   letter-spacing: 0.06em;
   text-align: left;
 
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 .portfolio-gallery__type {
   font-size: 16px;
   line-height: 1.88;
 
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }

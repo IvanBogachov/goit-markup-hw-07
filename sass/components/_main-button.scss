@@ -10,14 +10,14 @@
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  background-color: $accent-color;
-  color: $primary-color;
-  box-shadow: $box-shadow-btn;
-  transition: background-color $time-transl $cubic-bezier;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow-btn);
+  transition: background-color var(--time-transl) var(--cubic-bezier);
 
   &:hover,
   &:focus {
-    background-color: $button-hover;
+    background-color: var(--button-hover);
   }
 }
 
@@ -30,5 +30,5 @@
 
 .main-button__icon {
   margin-left: 10px;
-  fill: $primary-color;
+  fill: var(--primary-color);
 }

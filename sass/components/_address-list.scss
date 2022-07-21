@@ -13,10 +13,10 @@
 .address-list__link {
   @extend %link;
   font-weight: normal;
-  color: $opacity-adress-color;
+  color: var(--opacity-adress-color);
 
   &:hover {
-    color: $accent-color;
-    transition: color $time-transl $cubic-bezier;
+    color: var(--accent-color);
+    transition: color var(--time-transl) var(--cubic-bezier);
   }
 }

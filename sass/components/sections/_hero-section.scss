@@ -3,8 +3,8 @@
   padding: 200px 0;
   margin: 0 auto;
   text-align: center;
-  background-color: $secondary-bg-color;
-  background-image: linear-gradient(to right, $hero-bg-opacity, $hero-bg-opacity),
+  background-color: var(--secondary-bg-color);
+  background-image: linear-gradient(to right, var(--hero-bg-opacity), var(--hero-bg-opacity)),
     url(../images/bg-hero.jpg);
 }
 
@@ -26,5 +26,5 @@
   letter-spacing: 0.06em;
 
   text-transform: uppercase;
-  color: $primary-color;
+  color: var(--primary-color);
 }

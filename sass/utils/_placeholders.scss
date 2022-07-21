@@ -35,7 +35,7 @@
   font-weight: 500;
   text-decoration: none;
 
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 %title {
@@ -45,7 +45,8 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: $primary-text-color;
+  color: var(--primary-text-color);
+  
 }
 
 %subtitle {

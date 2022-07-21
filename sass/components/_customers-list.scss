@@ -18,24 +18,24 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid $social-net-color;
+  border: 1px solid var(--social-net-color);
   border-radius: 4px;
 
-  transition: border-color $time-transl $cubic-bezier;
+  transition: border-color var(--time-transl) var(--cubic-bezier);
   &:hover,
   &:focus {
-    border-color:$accent-color;
-    transition: border-color $time-transl $cubic-bezier;
+    border-color: var(--accent-color);
+    transition: border-color var(--time-transl) var(--cubic-bezier);
   }
 
   &:hover .customers-list__icon,
   &:focus .customers-list__icon {
-    fill: $accent-color;
-    transition: fill $time-transl $cubic-bezier;
+    fill: var(--accent-color);
+    transition: fill var(--time-transl) var(--cubic-bezier);
   }
 }
 
 .customers-list__icon {
-  fill: $social-net-color;
-  transition: fill $time-transl $cubic-bezier;
+  fill: var(--social-net-color);
+  transition: fill var(--time-transl) var(--cubic-bezier);
 }

@@ -6,15 +6,15 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  color: $primary-text-color;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 .logo__accent {
-  color: $accent-color;
+  color: var(--accent-color);
 }
 
 .logo--footer {
   margin-bottom: 20px;
-  color: $primary-color;
+  color: var(--primary-color);
 }

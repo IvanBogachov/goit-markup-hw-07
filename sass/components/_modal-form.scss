@@ -14,7 +14,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
   margin-bottom: 4px;
 }
 
@@ -24,17 +24,17 @@
   padding: 12px 11px;
   padding-left: 42px;
   border-radius: 4px;
-  border: $border-input-modal;
-  transition: border $time-transl $cubic-bezier;
+  border: var(--border-input-modal);
+  transition: border var(--time-transl) var(--cubic-bezier);
 
   &:hover,
   &:focus-within {
-    border: $border-input-focus;
+    border: var(--border-input-focus);
   }
 
   &:hover + .modal-form__icon,
   &:focus-within + .modal-form__icon {
-    fill: $accent-color;
+    fill: var(--accent-color);
   }
 }
 
@@ -45,20 +45,20 @@
   transform: translateY(0);
   width: 18px;
   height: 18px;
-  fill: $secondary-text-color;
-  transition: fill $time-transl $cubic-bezier;
+  fill: var(--secondary-text-color);
+  transition: fill var(--time-transl) var(--cubic-bezier);
 }
 
 
 .modal-form__input--textarea {
   padding: 11px 12px;
   border-radius: 4px;
-  border: $border-input-modal;
+  border: var(--border-input-modal);
   resize: none;
   height: 120px;
 
   &::placeholder {
-    color: $placeholder-text;
+    color: var(--placeholder-text);
   }
 }
 
@@ -74,7 +74,7 @@
   align-items: center;
   position: relative;
   padding-left: 24px;
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }
 
 .checkbox__input {
@@ -90,7 +90,7 @@
 }
 
 .checkbox__link {
-  color: $accent-color;
+  color: var(--accent-color);
 }
 
 .checkbox--no-checked {
@@ -99,7 +99,7 @@
   height: 15px;
   position: absolute;
   left: 0;
-  border: 2px solid $primary-text-color;
+  border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 }
 
@@ -107,15 +107,15 @@
   position: absolute;
   left: 0;
   opacity: 0;
-  transition: opacity $time-transl $cubic-bezier;
+  transition: opacity var(--time-transl) var(--cubic-bezier);
 }
 
 .checkbox__icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $accent-color;
-  fill: $primary-color;
+  background-color: var(--accent-color);
+  fill: var(--primary-color);
   border-radius: 2px;
 }
 

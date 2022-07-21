@@ -1,6 +1,6 @@
 .team {
   @extend %section;
-  background-color: $accent-bg-color;
+  background-color: var(--accent-bg-color);
 }
 
 .team__wrap {
